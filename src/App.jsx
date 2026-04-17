@@ -5,6 +5,7 @@ import {
   Twitter, Linkedin, MessageCircle, ArrowRight, Globe, ShieldCheck,
   ChevronRight
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -328,6 +329,7 @@ const App = () => {
           <p className="text-[10px] font-bold uppercase tracking-widest opacity-50">© {new Date().getFullYear()} Wonder Ayobami. Powered by Logic.</p>
         </footer>
       </div>
+      <Analytics />
     </div>
   );
 }
