@@ -53,7 +53,7 @@ const App = () => {
     },
     {
       year: "2025 - 2026",
-      role: "Graphics Designer & AI Creator",
+      role: "Full-Stack Developer| Graphics Designer| AI Creator",
       company: "AVSTUDIOS / Higgsfield AI",
       details: "Designed visual assets and produced AI-assisted video content for social channels. Developed storyboards to support brand campaign objectives."
     },
